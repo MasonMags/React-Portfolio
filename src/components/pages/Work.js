@@ -106,3 +106,5 @@ function Work () {
 </div>
     );
 };
+
+export default Work;
