@@ -1,6 +1,7 @@
 import React from 'react';
 
 function Nav({ currentPage, handlePageChange }){
+    return(
     <nav>
     <ul class="navigation">
       <li>
@@ -33,6 +34,7 @@ function Nav({ currentPage, handlePageChange }){
       </li>
     </ul>
 </nav>
+    );
 };
 
 export default Nav
