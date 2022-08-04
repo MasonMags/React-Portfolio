@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import NavTabs from './NavTabs';
+import Nav from './Nav';
 import About from './pages/About';
 import Work from './pages/Work';
 import Contact from './pages/Contact';
@@ -22,13 +22,15 @@ function Portfolio() {
         if (currentPage === Resume){
             return <Resume />
         };
+        if (currentPage === Resume)
+            return <Contact />
     };
 
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
         <div>
-          <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+          <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
 
           {renderPage()}
         </div>
