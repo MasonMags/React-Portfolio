@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Skills() {
+export default function Skills() {
     return (
         <div class="row">
   <h1 class="column title" id="skills">Skills</h1>
@@ -23,5 +23,3 @@ function Skills() {
 </div>
     );
 };
-
-export default Skills;

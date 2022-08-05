@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Resume() {
+export default function Resume() {
     return (
         <div>
             <h1>Resume</h1>
@@ -11,4 +11,3 @@ function Resume() {
     );
 };
 
-export default Resume;
