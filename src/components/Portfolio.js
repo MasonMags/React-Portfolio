@@ -6,23 +6,23 @@ import Contact from './pages/Contact';
 import Skills from './pages/Skills';
 import Resume from './pages/Resume'
 
-function Portfolio() {
+export default function Portfolio() {
     const [currentPage, setCurrentPage] = useState('About');
 
     const renderPage = () => {
-        if (currentPage === About){
+        if (currentPage === 'About'){
             return <About />
         };
-        if (currentPage === Work){
+        if (currentPage === 'Work'){
             return <Work />
         };
-        if (currentPage === Skills){
+        if (currentPage === 'Skills'){
             return <Skills />
         };
-        if (currentPage === Resume){
+        if (currentPage === 'Resume'){
             return <Resume />
         };
-        if (currentPage === Resume)
+        if (currentPage === 'Contact')
             return <Contact />
     };
 
@@ -31,12 +31,9 @@ function Portfolio() {
     return (
         <div>
           <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
-
           {renderPage()}
         </div>
       );
 };
-
-export default Portfolio
 
 
