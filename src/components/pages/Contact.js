@@ -1,6 +1,6 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
-
+import emailjs from 'emailjs-com';
 
 
 export default function Contact() {
@@ -19,6 +19,24 @@ export default function Contact() {
         console.log('Email: ', email);
         console.log('Subject: ', subject);
         console.log('Message: ', message);
+
+        try {
+            const templateParams = {
+              name,
+              email,
+              subject,
+              message
+            };
+            await emailjs.send(
+              process.env.REACT_APP_SERVICE_ID,
+              process.env.REACT_APP_TEMPLATE_ID,
+              templateParams,
+              process.env.REACT_APP_USER_ID
+            );
+            reset();
+          } catch (e) {
+            console.log(e);
+          }
       };
 
 
