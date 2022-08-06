@@ -1,6 +1,50 @@
-
 .doc {
     background-color: #233554;
     color: white;
     font-family: monospace;
+}
+
+.title {
+    font-family: monospace;
+    color: var(--color);
+    font-size: 30px;
+    border-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--secondary-color);
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.nav-overwrite {
+    border-bottom: 5px !important;
+    border-bottom-style: solid !important;
+    border-bottom-color: white  !important
+}
+
+.content-box {
+    font-size: 30;
+    margin-top: 15px;
+    line-height: 200%
+}
+/* 
+.about-container {
+    display: flex
+} */
+
+.about-content {
+   max-width: 1080px;
+   margin: 200px 20%;
+   float: none;
+   text-align: center
+}
+
+.nav-link {
+    color: #64ffda !important;
+}
+
+.active {
+    color: black !important
 }
