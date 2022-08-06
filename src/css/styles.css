@@ -77,3 +77,19 @@
     text-align: center;
     list-style-position: inside;
 }
+
+.work-link-list {
+    color:#64ffda
+}
+
+.contact {
+    margin-left: 50px;
+    margin-right: 50px
+}
+
+.btn-overwrite {
+    margin-top: 20px;
+    background-color: #64ffda !important;
+    border-color: #64ffda !important;
+    color: #233554 !important;
+}
