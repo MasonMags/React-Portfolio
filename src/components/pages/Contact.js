@@ -27,10 +27,10 @@ export default function Contact() {
               message
             };
             await emailjs.send(
-                'service_8bwh5dy',
-                'template_q8t8hnp',
+                process.env.REACT_APP_SERVICE_ID,
+                process.env.REACT_APP_TEMPLATE_ID,
               templateParams,
-              'Qb9UvrDqXBMP2vXE_'
+                process.env.REACT_APP_PUBLIC_KEY
             );
             reset();
           } catch (e) {
