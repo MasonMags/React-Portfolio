@@ -1,5 +1,10 @@
 import React from 'react';
 
+import breweathery from "../../images/breweatheryapp.jpg"
+import bibliotecha from "../../images/bibliotecha.jpg"
+import noteTaker from "../../images/Note-taker.jpg"
+import TPG from "../../images/TPG.jpg"
+
 export default function Work () {
     return (
         <div className="row">
@@ -11,7 +16,7 @@ export default function Work () {
 
         <div className="sub-project flex-child">
             <a href="https://cadencechiappe.github.io/GP1-Bootcamp/">
-              <img className = "small-img" src="./assets/images/breweatheryapp.jpg" alt="Breweathery web app home page"></img>
+              <img className = "work-img" src={breweathery} alt="Breweathery web app home page"></img>
             </a>
         </div>
 
@@ -36,7 +41,7 @@ export default function Work () {
          
         <div className="sub-project flex-child">
           <a href="https://arcane-harbor-36381.herokuapp.com/">
-            <img className = "small-img" src="./assets/images/bibliotecha.jpg" alt="bibliotecha web app home page"></img>
+            <img className = "work-img" src={bibliotecha} alt="bibliotecha web app home page"></img>
           </a>
         </div>
 
@@ -59,7 +64,7 @@ export default function Work () {
          
         <div className="sub-project flex-child">
           <a href="https://github.com/MasonMags/Team-Profile-Generator">
-            <img className = "small-img" src="./assets/images/TPG.jpg" alt="TPG web app home page"></img>
+            <img className = "work-img" src={TPG} alt="TPG web app home page"></img>
           </a>
         </div>
 
@@ -81,7 +86,7 @@ export default function Work () {
          
         <div className="sub-project flex-child">
           <a href="https://note-taker-41.herokuapp.com/">
-            <img className = "small-img" src="./assets/images/Note-taker.jpg" alt="Note Taker web app home page"></img>
+            <img className = "work-img" src={noteTaker} alt="Note Taker web app home page"></img>
           </a>
         </div>
 
