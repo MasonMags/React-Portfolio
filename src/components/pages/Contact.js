@@ -24,14 +24,13 @@ export default function Contact() {
             const templateParams = {
               name,
               email,
-              subject,
               message
             };
             await emailjs.send(
-              process.env.REACT_APP_SERVICE_ID,
-              process.env.REACT_APP_TEMPLATE_ID,
+                'service_8bwh5dy',
+                'template_q8t8hnp',
               templateParams,
-              process.env.REACT_APP_USER_ID
+              'Qb9UvrDqXBMP2vXE_'
             );
             reset();
           } catch (e) {
