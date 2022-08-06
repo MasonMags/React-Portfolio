@@ -1,10 +1,11 @@
 import React from 'react';
 
-import breweathery from "../../images/breweatheryapp.jpg"
-import bibliotecha from "../../images/bibliotecha.jpg"
-import noteTaker from "../../images/Note-taker.jpg"
-import TPG from "../../images/TPG.jpg"
-import weatherDash from "../../images/weather-dash.jpg"
+import breweathery from "../../images/breweatheryapp.jpg";
+import bibliotecha from "../../images/bibliotecha.jpg";
+import noteTaker from "../../images/Note-taker.jpg";
+import TPG from "../../images/TPG.jpg";
+import weatherDash from "../../images/weather-dash.jpg";
+import readmeGen from "../../images/readme-gen.jpg";
 
 export default function Work () {
   console.log("must display SIX projects")
@@ -125,6 +126,27 @@ export default function Work () {
                 <li className="work-link-list">Deployed Application</li>
               </a>
               <a href="https://github.com/MasonMags/Weather-Dashboard">
+                <li className="work-link-list">Github Repository</li>
+              </a>
+              </ul>
+        </div>
+
+      </div>
+
+      <div className="row flex-parent">
+         
+        <div className="sub-project flex-child">
+          <a href="https://github.com/MasonMags/Professional-README-Generator">
+            <img className = "work-img" src={readmeGen} alt="README being generated from the command line"></img>
+          </a>
+        </div>
+
+        <div className="work-caption flex-child" id="caption-section-work">
+          <p className="app-title">README Generator</p>
+            <p className="app-desc">A command-line application that generates a professional README.md file 
+            based on a user's input to a series of prompts </p>
+              <ul>
+              <a href="https://github.com/MasonMags/Professional-README-Generator">
                 <li className="work-link-list">Github Repository</li>
               </a>
               </ul>
