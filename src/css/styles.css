@@ -48,3 +48,32 @@
 .active {
     color: black !important
 }
+
+.work-img {
+    max-width: 300px;
+    height: auto;
+    margin: 40px 10% 40px 10%;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.46);
+    transition: 0.3s;
+    width: 100%;
+}
+
+.work-img:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.flex-parent {
+    display: flex
+}
+
+.flex-child {
+    flex: 1;
+    justify-content: center;
+}
+
+.work-caption {
+    margin-top: 40px !important;
+    margin: 40px, 5%, 40px, 0 !important;
+    text-align: center;
+    list-style-position: inside;
+}
