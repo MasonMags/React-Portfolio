@@ -4,8 +4,10 @@ import breweathery from "../../images/breweatheryapp.jpg"
 import bibliotecha from "../../images/bibliotecha.jpg"
 import noteTaker from "../../images/Note-taker.jpg"
 import TPG from "../../images/TPG.jpg"
+import weatherDash from "../../images/weather-dash.jpg"
 
 export default function Work () {
+  console.log("must display SIX projects")
     return (
         <div className="row">
   {/* <h1 className="column title" id="work">Work</h1> */}
@@ -99,6 +101,30 @@ export default function Work () {
                 <li className="work-link-list">Deployed Application</li>
               </a>
               <a href="https://github.com/MasonMags/Note-Taker">
+                <li className="work-link-list">Github Repository</li>
+              </a>
+              </ul>
+        </div>
+
+      </div>
+
+      <div className="row flex-parent">
+         
+        <div className="sub-project flex-child">
+          <a href="https://masonmags.github.io/Weather-Dashboard/">
+            <img className = "work-img" src={weatherDash} alt="Weather Dashboard web app home page"></img>
+          </a>
+        </div>
+
+        <div className="work-caption flex-child" id="caption-section-work">
+          <p className="app-title">Weather Dashboard</p>
+            <p className="app-desc">A front-end application that uses a third-party API to display 
+            the current weather as well as a five-day forecast </p>
+              <ul>
+              <a href="https://masonmags.github.io/Weather-Dashboard/">
+                <li className="work-link-list">Deployed Application</li>
+              </a>
+              <a href="https://github.com/MasonMags/Weather-Dashboard">
                 <li className="work-link-list">Github Repository</li>
               </a>
               </ul>
