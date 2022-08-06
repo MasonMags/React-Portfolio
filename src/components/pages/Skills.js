@@ -1,11 +1,12 @@
 import React from 'react';
+import "../../css/styles.css"
 
 export default function Skills() {
     return (
         <div class="row">
-  <h1 class="column title" id="skills">Skills</h1>
-  <div class="column content-boxes">
-      <ul class="column content-boxes" id="skills-list">
+  {/* <h1 class="column title" id="skills">Skills</h1> */}
+  <div class="content-box">
+      <ul class="content-box" id="skills-list">
         <li>HTML</li>
         <li>CSS</li>
         <li>JavaScript</li>

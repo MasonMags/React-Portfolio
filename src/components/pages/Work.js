@@ -3,7 +3,7 @@ import React from 'react';
 export default function Work () {
     return (
         <div className="row">
-  <h1 className="column title" id="work">Work</h1>
+  {/* <h1 className="column title" id="work">Work</h1> */}
     <div className="column content-boxes">
       
   
