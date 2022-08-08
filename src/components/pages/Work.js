@@ -28,11 +28,11 @@ export default function Work () {
             <p className="app-desc">An easy way to search for breweries and view 
             the weather forecast for a specific area</p>
             <ul>
-              <a href="https://cadencechiappe.github.io/GP1-Bootcamp/">
-                <li className="work-link-list">Deployed Application</li>
+              <a href="https://cadencechiappe.github.io/GP1-Bootcamp/" className="work-link-list">
+                <li>Deployed Application</li>
               </a>
-              <a href="https://github.com/cadencechiappe/GP1-Bootcamp">
-                <li className="work-link-list">Github Repository</li>
+              <a href="https://github.com/cadencechiappe/GP1-Bootcamp" className="work-link-list">
+                <li>Github Repository</li>
               </a>
             </ul>
         </div>
@@ -52,11 +52,11 @@ export default function Work () {
           <p className="app-title">Bibliotecha</p>
             <p className="app-desc">A platform to search for and share books with friends</p>
             <ul>
-              <a href="https://arcane-harbor-36381.herokuapp.com/">
-                <li className="work-link-list">Deployed Application</li>
+              <a href="https://arcane-harbor-36381.herokuapp.com/" className="work-link-list">
+                <li>Deployed Application</li>
               </a>
-              <a href="https://github.com/jesusoyer/Bibliotecha-">
-                <li className="work-link-list">Github Repository</li>
+              <a href="https://github.com/jesusoyer/Bibliotecha-" className="work-link-list">
+                <li>Github Repository</li>
               </a>
             </ul>
         </div>
@@ -77,8 +77,8 @@ export default function Work () {
               based on a user's input to a series of prompts
             </p>
             <ul>
-              <a href="https://github.com/MasonMags/Team-Profile-Generator">
-                <li className="work-link-list">Github Repository</li>
+              <a href="https://github.com/MasonMags/Team-Profile-Generator" className="work-link-list">
+                <li>Github Repository</li>
               </a>
             </ul>
         </div>
@@ -98,11 +98,11 @@ export default function Work () {
             <p className="app-desc">A simple note-taking app that uses Express routes to write, 
               read, and delete notes </p>
               <ul>
-              <a href="https://note-taker-41.herokuapp.com/">
-                <li className="work-link-list">Deployed Application</li>
+              <a href="https://note-taker-41.herokuapp.com/" className="work-link-list">
+                <li>Deployed Application</li>
               </a>
-              <a href="https://github.com/MasonMags/Note-Taker">
-                <li className="work-link-list">Github Repository</li>
+              <a href="https://github.com/MasonMags/Note-Taker" className="work-link-list">
+                <li>Github Repository</li>
               </a>
               </ul>
         </div>
@@ -122,11 +122,11 @@ export default function Work () {
             <p className="app-desc">A front-end application that uses a third-party API to display 
             the current weather as well as a five-day forecast </p>
               <ul>
-              <a href="https://masonmags.github.io/Weather-Dashboard/">
-                <li className="work-link-list">Deployed Application</li>
+              <a href="https://masonmags.github.io/Weather-Dashboard/" className="work-link-list">
+                <li>Deployed Application</li>
               </a>
-              <a href="https://github.com/MasonMags/Weather-Dashboard">
-                <li className="work-link-list">Github Repository</li>
+              <a href="https://github.com/MasonMags/Weather-Dashboard" className="work-link-list">
+                <li>Github Repository</li>
               </a>
               </ul>
         </div>
@@ -146,8 +146,8 @@ export default function Work () {
             <p className="app-desc">A command-line application that generates a professional README.md file 
             based on a user's input to a series of prompts </p>
               <ul>
-              <a href="https://github.com/MasonMags/Professional-README-Generator">
-                <li className="work-link-list">Github Repository</li>
+              <a href="https://github.com/MasonMags/Professional-README-Generator" className="work-link-list">
+                <li>Github Repository</li>
               </a>
               </ul>
         </div>
