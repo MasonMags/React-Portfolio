@@ -36,7 +36,7 @@
 
 .about-content {
    max-width: 1080px;
-   margin: 200px 20%;
+   margin: 70px 20%;
    float: none;
    text-align: center
 }
@@ -92,4 +92,25 @@
     background-color: #64ffda !important;
     border-color: #64ffda !important;
     color: #233554 !important;
+}
+
+.errorMessage{
+    color:#64ffda !important;
+}
+
+.avatar{
+    height: auto;  
+    max-width: 300px; 
+    max-height: 300px;
+    border-radius: 60%;
+    margin-bottom: 20px;
+}
+
+.resume-content{
+    margin-top: 70px !important;
+    text-align: center;
+}
+
+.resume-overwrite {
+    color:#64ffda
 }
