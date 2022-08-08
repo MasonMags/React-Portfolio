@@ -1,11 +1,13 @@
 import React from 'react';
 
+import profilepic from '../../images/profilepic.jpg'
+
 export default function About() {
     return (
         <div className="about-container">
             {/* <h1> About Me </h1> */}
                 <div className="about-content">
-                 <img src={avatar} alt="Mason on the river" id="about-me-img"></img>
+                 <img className="avatar" src={profilepic} alt="Mason on the river"></img>
                     <p>
                          Hello! My name is Mason Maglalang and I'm a full-stack web developer based out of Austin, Texas. 
                         I'm a creative thinker and a problem solver who loves to design, build, and implement things that 
