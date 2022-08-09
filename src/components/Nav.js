@@ -16,17 +16,6 @@ function Nav({ currentPage, handlePageChange }){
       </li>
       <li className="nav-item">
         <a
-          href="#skills"
-          onClick={() => handlePageChange('Skills')}
-          //  TODO: Add a comment explaining what this logic is doing
-
-          className={currentPage === 'Skills' ? 'nav-link active' : 'nav-link'}
-        >
-          Skills
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
           href="#work"
           //  TODO: Add a comment explaining what this logic is doing
 
