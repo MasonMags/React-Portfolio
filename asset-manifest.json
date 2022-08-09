@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.46a3d5b3.css",
+    "main.js": "/react-portfolio/static/js/main.e714c120.js",
+    "static/media/bibliotecha.jpg": "/react-portfolio/static/media/bibliotecha.4a53fca331c9bc591d83.jpg",
+    "static/media/resume.pdf": "/react-portfolio/static/media/resume.936637b408f088a98502.pdf",
+    "static/media/TPG.jpg": "/react-portfolio/static/media/TPG.6dad5107a22b0d6ac3ce.jpg",
+    "static/media/readme-gen.jpg": "/react-portfolio/static/media/readme-gen.eb0846ee279f9452c125.jpg",
+    "static/media/Note-taker.jpg": "/react-portfolio/static/media/Note-taker.d5cbd60cada02913bc25.jpg",
+    "static/media/breweatheryapp.jpg": "/react-portfolio/static/media/breweatheryapp.39cf5f4c004b3869028e.jpg",
+    "static/media/profilepic.jpg": "/react-portfolio/static/media/profilepic.6f0f9e596a95f66c6c4e.jpg",
+    "static/media/weather-dash.jpg": "/react-portfolio/static/media/weather-dash.fee1549a5ddfa5465d0b.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.46a3d5b3.css.map": "/react-portfolio/static/css/main.46a3d5b3.css.map",
+    "main.e714c120.js.map": "/react-portfolio/static/js/main.e714c120.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.46a3d5b3.css",
+    "static/js/main.e714c120.js"
+  ]
+}
