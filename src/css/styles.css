@@ -2,6 +2,7 @@
     background-color: #233554;
     color: white;
     font-family: monospace;
+    margin-bottom: 10px;
 }
 
 .title {
@@ -113,4 +114,60 @@
 
 .resume-overwrite {
     color:#64ffda
+}
+
+.footer{
+    background-color:#233554 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon {
+    margin-top: 7px;
+    margin-bottom: 7px;
+    margin-left: 20px;
+    max-width: 25px;
+}
+
+.tech{
+    margin-top: 10px;
+    text-align: center; 
+}
+
+.skills-list{
+    text-align: center;
+    margin-top: 10px;
+    list-style-position: inside;
+    margin-right: 10px
+}
+
+/* media queries */
+@media (max-width: 450px) {
+/* About */
+    .avatar {
+        margin-right: 5px;
+        margin-left: 5px
+    }
+    .about-content {
+        margin-right: 5px;
+        margin-left: 5px
+    }
+
+/* Portfolio */
+    .flex-child {
+        margin-top: 5px !important;
+        margin-right: 0px;
+        margin-left: 10px;
+        text-align: right;
+    }
+
+    .work-img {
+        margin-left: 0px
+    }
+
+    .flex-parent {
+        border-bottom: #64ffda;
+        border-bottom-style: dashed;
+    }
 }
